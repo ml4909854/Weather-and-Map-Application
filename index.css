@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(233, 230, 228);
+  font-family: sans-serif;
+}
+
+#navbar {
+  width: 100%;
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 60px;
+  background-color: black;
+}
+
+#map {
+  margin-top: 95px;
+}
+
+#Input_button {
+  width: 550px;
+  height: 40px;
+ 
+  margin-top: 20px;
+  padding: 15px;
+  margin-left: -15px;
+}
+
+#search-input {
+  padding: 0 30px;
+  width: 400px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#search-input:focus {
+  outline: none;
+}
+
+#Input_button > button {
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#container {
+  width: 450px;
+  margin-top: 5px;
+  height: 310px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#map {
+  height: 287px;
+  width: 600px;
+  padding: 50px 50px 50px 50px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#display {
+  display: flex;
+  justify-content: center;
+}
+
+#container > div {
+  width: 380px;
+  height: 300px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  color: black;
+}
+#container > div > h1 {
+  font-size: 30px;
+}
+.icon {
+  width: 15px;
+}
+
+#forecast-container {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  color:black;
+  gap: 10px;
+  border: 1px solid white;
+  margin-top: 30px;
+}
